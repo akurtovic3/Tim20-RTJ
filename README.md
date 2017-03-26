@@ -8,7 +8,7 @@
 
 # Opis Teme
 
-Aplikacija za cilj ima olakšavanje procesa rezervacije i dogovaranja termina za rekreativne sportove. Znamo da je jako teško uskladiti i rezervisati baš onaj termin koji vama odgovara, zato sa ovom aplikacijom to mozete da zavrsite za 5 minuta. Ovaj sistem ce koristiti bilo ko sa prostorom za koristenje u svrhu sportskih termina, moguce su velike ustede vremena i efikasnije koristenje prostorija.
+Aplikacija za cilj ima olakšavanje procesa rezervacije i dogovaranja termina za rekreativne sportove. Znamo da je jako teško uskladiti i rezervisati baš onaj termin koji vama odgovara, zato sa ovom aplikacijom to mozete da zavrsite za 5 minuta. Ovaj sistem ce koristiti bilo ko sa prostorom za koristenje u svrhu sportskih termina, moguce su velike ustede vremena i efikasnije koristenje prostorija. U demonstrativnom okruzenju, aplikaciju koristi sasvim tipicni covjek koji nema dovoljno vremena da prodje kroz sve ponude sarajevskih sportskih centara i da odabere ponudu koja odgovara njemu a i ostatku tima. U tom slucaju problem predstavlja i mogucnost drugih ljudi da rezervisu taj termin prije njega. Sve ovo je rijeseno aplikacijom FIFO (Federation Internazionale de Football Organization) sa kojom u par klikova mozete da posaljete zahtjev za rezervaciju mnostva sala, sportova i termina po cijelom Sarajevu, a i sire.
 
 # Procesi
 
