@@ -45,9 +45,9 @@ Cestim koristenjem aplikacije i zakupljivanjem termina korisnik skuplja bodove k
 
 # Akteri
 
-Korisnik - osoba koja koristi aplikaciju i ima mogucnost registracije, pregleda i biranja termina
-Uposlenik - osoba koja radi za firmu u kojoj se izdaje termin, ima mogucnost odobravanja termina i ubacivanje novih termina
-Administrator - kreator aplikacije koji ima sve privilegije
+- Korisnik - osoba koja koristi aplikaciju i ima mogucnost registracije, pregleda i biranja termina
+- Uposlenik - osoba koja radi za firmu u kojoj se izdaje termin, ima mogucnost odobravanja termina i ubacivanje novih termina
+- Administrator - kreator aplikacije koji ima sve privilegije
 
 
 
