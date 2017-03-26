@@ -34,20 +34,21 @@ Cestim koristenjem aplikacije i zakupljivanjem termina korisnik skuplja bodove k
 
 # Funkcionalnosti
 
-- Biranje parametara za termine
-- Slanje notifikacija korisniku
+- Biranje termina, sale i sporta za zeljeni termin
+- Slanje notifikacija korisniku o potencijalnom pomjeranju termina ili potvrđenom terminu
 - Dodavanje novih termina i sala
-- Mogucnost prijave u sistem sa razlicitim privilegijama
-- Mogucnost dodavanja teksta uz zahtjev za rezervisanje termina
+- Editovanje vec postojecih termina
+- Mogucnost prijave u sistem sa razlicitim privilegijama (obicni korisnik, uposlenik kompleksa i admin)
+- Mogucnost dodavanja komentara uz zahtjev za rezervisanje termina
 - Automatsko pronalazenje najblizih sala koristenjem GPS usluge
-- Mogucnost pretrage termina glasom
+- Mogucnost pretrage termina glasom (speech to text)
 - Automatsko kreiranje i izdavanje racuna
 
 # Akteri
 
-- Korisnik - osoba koja koristi aplikaciju i ima mogucnost registracije, pregleda i biranja termina
+- Korisnik - osoba koja koristi aplikaciju i ima mogucnost registracije, pretrage, pregleda i biranja termina
 - Uposlenik - osoba koja radi za firmu u kojoj se izdaje termin, ima mogucnost odobravanja termina i ubacivanje novih termina
-- Administrator - kreator aplikacije koji ima sve privilegije
+- Administrator - kreator aplikacije koji ima sve privilegije (editovanje termina, dodavanje novih sala, registrovanje uposlenika)
 
 
 
