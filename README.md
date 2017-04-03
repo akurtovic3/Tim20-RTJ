@@ -1,3 +1,6 @@
+![alt tag] (https://github.com/ooad-2016-2017/Tim20-RTJ/blob/master/logo.png)
+
+
 # Tim20-RTJ
 
 Članovi tima:
