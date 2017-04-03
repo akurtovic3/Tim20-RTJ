@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src ="https://github.com/ooad-2016-2017/Tim20-RTJ/blob/master/logo.png"/>
+</p>
 
 # Tim20-RTJ
 
