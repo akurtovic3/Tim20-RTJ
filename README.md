@@ -1,4 +1,3 @@
-![FIFO Logo] (Tim20-RTJ/logo.png)
 
 
 # Tim20-RTJ
