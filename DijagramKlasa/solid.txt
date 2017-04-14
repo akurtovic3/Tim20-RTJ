@@ -1,0 +1,19 @@
+PRINCIP 1: PRINCIP POJEDINACNE ODGOVORNOSTI
+-------------------------------------------	
+Ovaj koncept je najlakši za ispuniti, s obzirom da u trenutnom dijagramu klasa nemamo posebno specificiranih metoda/interfejsa za rad sa bazom i xml/txt dokumentima. Imajuci u vidu da ce postojati klase napravljene specificno za te uloge, možemo reci da je princip pojedinacne odgovornosti ispoštovan na ovom projektu.
+
+PRINCIP 2: OTVORENO ZATVORENI PRINCIP
+-------------------------------------	
+Podrucje na kojem se najbolje može primjetiti poštivanje ovog principa je u interfejsima IPrepoznavanjeGPS i IPrepoznavanjeGlasa. Ova dva interfejsa, da su implementirana kao dio klase, ili kao neka susjedna klasa koja je povezana sa klasom Kompleks, bi pravili problem. Kada bi mijenjali te dijelove klasa, morali bi da modifikujemo i cijelu klasu Kompleks. Pošto su ove funkcionalnosti implementirane kao interfejsi - tih problema nemamo.
+
+PRINCIP 3: LISKOV PRINCIP ZAMJENE
+---------------------------------
+Jedino naslijedivanje koje imamo u sistemu je Osoba -> Clan i Osoba -> Uposlenik, od kojih su oba validna i ispravna naslijedivanja. Nemamo interfejse oko ovih klasa tako da je sigurno princip zamjene ispoštovan.
+
+PRINCIP 4: PRINCIP INVERZIJE OVISNOSTI
+--------------------------------------
+Klasa Osoba je apstraktna klasa, tako da u dijelu dijagrama sa naslijedivanjem klasa Clan i Uposlenik nemamo problema sa stanovišta principa inverzije ovisnosti. Što se tice klase Kompleks, ona je uz korištenje interfejsa implementirana, tako da ni ta klasa nema nikakve ovisnosti od drugih, konkretnih klasa koje bi se mogle mijenjati u buducnosti. Koriste se klase String, Vector itd. ali te su klase sigurne za oslanjanje, jer se smatra da u sljedecoj dekadi nece dolaziti do nekih promjena u tim klasama.
+
+PRINCIP 5: PRINCIP IZOLIRANJA INTERFEJSA
+----------------------------------------
+Što se tice ovog dijagrama i sistema u cjelosti, nema razloga da se u nekoj klasi nalazi više od desetak funkcija, od kojih je vecina u bliskoj vezi sa osnovnim funkcijama te klase. Jedino mjesto gdje postoje opcionalne funkcionalnosti je klasa Kompleks, ali tu smo vec iskoristili interfejs tako da je tu princip izoliranja interfejsa u potpunosti ispoštovan. Jedini nacin kako bi ovaj princip mogli prekršiti jeste da kod kreiranja Database i XML funkcionalnosti jednostavno ubacimo sve u neku klasu. Planiraju se ove funkcionalnosti implementirati uz korištenje interfejsa, poštujuci i ovaj princip.
