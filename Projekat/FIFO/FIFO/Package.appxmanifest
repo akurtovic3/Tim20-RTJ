@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="e50d4fa3-6bd7-49b8-bc95-a3f1e85660c1"
+    Name="73ec0e0e-8ef2-4be8-8fe4-8d8ca88c487a"
     Publisher="CN=Haris"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="e50d4fa3-6bd7-49b8-bc95-a3f1e85660c1" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="73ec0e0e-8ef2-4be8-8fe4-8d8ca88c487a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>FIFO</DisplayName>

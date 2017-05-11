@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{7cbf04ee-fcda-4d5c-812b-f10d29443be8}</ProjectGuid>
+    <ProjectGuid>{2f60e859-22ef-4f9b-a60b-bf82e38d8d80}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FIFO</RootNamespace>
