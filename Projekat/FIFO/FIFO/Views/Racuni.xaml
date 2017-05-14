@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="FIFO.Racuni"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FIFO"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel  Grid.Row="0" Orientation="Vertical" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch">
+            <TextBlock x:Name="textBlockBrojRacuna" HorizontalAlignment="Stretch" FontSize="30" TextWrapping="Wrap" Text="Broj racuna: " Margin="5"  VerticalAlignment="Center"/>
+            <TextBlock x:Name="textBlockDatumTermina" HorizontalAlignment="Stretch" FontSize="30" TextWrapping="Wrap" Text="Datum termina: " Margin="5" VerticalAlignment="Center"/>
+            <TextBlock x:Name="textBlockVrijemeTermina" HorizontalAlignment="Stretch" FontSize="30" TextWrapping="Wrap" Text="Vrijeme termina: " Margin="5" VerticalAlignment="Center"/>
+            <TextBlock x:Name="textBlockSala" HorizontalAlignment="Stretch" FontSize="30" TextWrapping="Wrap" Text="Sala: " Margin="5" VerticalAlignment="Center"/>
+            <TextBlock x:Name="textBlockSport" HorizontalAlignment="Stretch" FontSize="30" TextWrapping="Wrap" Text="Sport: " Margin="5" VerticalAlignment="Center"/>
+            <TextBlock x:Name="textBlockKupon" HorizontalAlignment="Stretch" FontSize="30" TextWrapping="Wrap" Text="Kupon: " Margin="5" VerticalAlignment="Center"/>
+            <TextBlock x:Name="textBlockUposlenik" HorizontalAlignment="Stretch" FontSize="30" TextWrapping="Wrap" Text="Uposlenik koji je izdao termin: " Margin="5" VerticalAlignment="Center"/>
+            <TextBlock x:Name="textBlockCijenaJednog" HorizontalAlignment="Stretch" FontSize="30" TextWrapping="Wrap" Text="Cijena jednog termina: " Margin="5" VerticalAlignment="Center"/>
+            <TextBlock x:Name="textBlockBrojOdigranih" HorizontalAlignment="Stretch" FontSize="30" TextWrapping="Wrap" Text="Broj odigranih: " Margin="5" VerticalAlignment="Center"/>
+            <TextBlock x:Name="textBlockUkupno" HorizontalAlignment="Stretch" FontSize="40" TextWrapping="Wrap" Text="Ukupno: " Margin="0, 50"  VerticalAlignment="Center"/>
+        </StackPanel>
+        <Button x:Name="buttonIzdaj" Content="Izdaj racun" FontSize="40" HorizontalAlignment="Stretch"  Grid.Row="1" VerticalAlignment="Stretch"/>
+
+
+
+    </Grid>
+</Page>
