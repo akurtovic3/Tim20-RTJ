@@ -103,6 +103,5 @@ namespace FIFO
         {
             buducnost.Add(t);
         }
-
     }
 }
