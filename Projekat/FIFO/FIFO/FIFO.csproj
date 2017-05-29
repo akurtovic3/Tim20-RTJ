@@ -92,8 +92,14 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Views\Uposlenik.xaml.cs">
-      <DependentUpon>Uposlenik.xaml</DependentUpon>
+    <Compile Include="Clan.cs" />
+    <Compile Include="Osoba.cs" />
+    <Compile Include="Racun.cs" />
+    <Compile Include="Sala.cs" />
+    <Compile Include="Termin.cs" />
+    <Compile Include="Uposlenik.cs" />
+    <Compile Include="Views\UposlenikView.xaml.cs">
+      <DependentUpon>UposlenikView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Rezervisanje.xaml.cs">
       <DependentUpon>Rezervisanje.xaml</DependentUpon>
@@ -144,7 +150,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Views\Uposlenik.xaml">
+    <Page Include="Views\UposlenikView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
