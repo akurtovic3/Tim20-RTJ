@@ -92,12 +92,17 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clan.cs" />
-    <Compile Include="Osoba.cs" />
-    <Compile Include="Racun.cs" />
-    <Compile Include="Sala.cs" />
-    <Compile Include="Termin.cs" />
-    <Compile Include="Uposlenik.cs" />
+    <Compile Include="Helper\INavigationService.cs" />
+    <Compile Include="Helper\NavigationService.cs" />
+    <Compile Include="Helper\RelayCommand.cs" />
+    <Compile Include="Model\Clan.cs" />
+    <Compile Include="Model\Kompleks.cs" />
+    <Compile Include="Model\Osoba.cs" />
+    <Compile Include="Model\Racun.cs" />
+    <Compile Include="Model\Sala.cs" />
+    <Compile Include="Model\Sistem.cs" />
+    <Compile Include="Model\Termin.cs" />
+    <Compile Include="Model\Zaposlenik.cs" />
     <Compile Include="Views\UposlenikView.xaml.cs">
       <DependentUpon>UposlenikView.xaml</DependentUpon>
     </Compile>
@@ -182,6 +187,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModel\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
