@@ -26,5 +26,10 @@ namespace FIFO
         {
             this.InitializeComponent();
         }
+
+        private void buttonPotvrdi_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Racuni));
+        }
     }
 }

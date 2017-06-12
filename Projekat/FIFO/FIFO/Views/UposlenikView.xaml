@@ -72,7 +72,7 @@
                 <GridViewItem Content="Item4"></GridViewItem>
                 <GridViewItem Content="Item5"></GridViewItem>
             </GridView>
-            <Button x:Name="buttonPotvrdi" Content="Odobri" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+            <Button x:Name="buttonPotvrdi" Content="Odobri" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="buttonPotvrdi_Click"/>
         </StackPanel>
 
 

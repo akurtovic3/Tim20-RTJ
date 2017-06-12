@@ -57,8 +57,8 @@
 
                 <PasswordBox PlaceholderText="Password" x:Name="passwordTextBox" />
 
-                <Button  Margin="0,15,0,15" Content="Login" HorizontalAlignment="Stretch" Background="White"/>
-                <Button  Margin="0,15,0,15" Content="Register" HorizontalAlignment="Stretch" Background="LightGray"/>
+                <Button  Margin="0,15,0,15" Content="Login" HorizontalAlignment="Stretch" Background="White" Click="Button_Click"/>
+                <Button  Margin="0,15,0,15" Content="Register" HorizontalAlignment="Stretch" Background="LightGray" Click="Button_Click_1"/>
             </StackPanel>
         </RelativePanel>
 

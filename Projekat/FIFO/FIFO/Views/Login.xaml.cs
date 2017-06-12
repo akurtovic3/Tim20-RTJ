@@ -12,6 +12,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Core;
+
+
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -25,6 +28,23 @@ namespace FIFO
         public MainPage()
         {
             this.InitializeComponent();
+            
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (usernameTextBox.Text == "clan")
+                Frame.Navigate(typeof(Profil));
+            else if (usernameTextBox.Text == "uposlenik")
+                Frame.Navigate(typeof(Uposlenik));
+            else if (usernameTextBox.Text == "admin")
+                Frame.Navigate(typeof(Admin));
+           
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Registracija));
         }
     }
 }

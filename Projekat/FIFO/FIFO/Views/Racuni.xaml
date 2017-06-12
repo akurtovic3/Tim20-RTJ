@@ -25,7 +25,7 @@
             <TextBlock x:Name="textBlockBrojOdigranih" HorizontalAlignment="Stretch" FontSize="30" TextWrapping="Wrap" Text="Broj odigranih: " Margin="5" VerticalAlignment="Center"/>
             <TextBlock x:Name="textBlockUkupno" HorizontalAlignment="Stretch" FontSize="40" TextWrapping="Wrap" Text="Ukupno: " Margin="0, 50"  VerticalAlignment="Center"/>
         </StackPanel>
-        <Button x:Name="buttonIzdaj" Content="Izdaj racun" FontSize="40" HorizontalAlignment="Stretch"  Grid.Row="1" VerticalAlignment="Stretch"/>
+        <Button x:Name="buttonIzdaj" Content="Izdaj racun" FontSize="40" HorizontalAlignment="Stretch"  Grid.Row="1" VerticalAlignment="Stretch" Click="buttonIzdaj_Click"/>
 
 
 
