@@ -1,0 +1,23 @@
+Izvjestaj tima 20, tima RTJ.
+
+Što se tice ovog projekta, nismo uradili mnogo stvari, vecinom zbog vannastavnih obaveza u periodu kada se tražio intenzivni rad na projektu. Treci clan našeg tima, Esmer Turkovic, nije uradio ništa, niti se pojavljivao na predavanjima / tutorijalima.
+
+Od uradenih stvari, podjela je sljedeca:
+Haris Osmanbegovic: 	Readme fajl
+			Scenariji
+			Dijagrami aktivnosti
+			Analiza SOLID principa
+			Modeli
+			Dijagrami paketa i komponenti
+
+Rasim Šabanovic:	Readme fajl
+			Use case
+			Prototipi formi
+			Logo
+			Dijagram klasa
+			Forme
+			Dijagram rasporedjivanja
+			Dijagram sekvenci
+			MVVM Dijagram Klasa
+
+Igrica je radjena zajedno, na principu 2 programmers 1 computer.
